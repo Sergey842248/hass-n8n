@@ -1,3 +1,6 @@
+# Just a fork of the Original
+# All Credits go to "[https://github.com/Rbillon59/hass-n8n](url)"
+
 # Configuration
 
 In the configuration section, set the port if the default one is not good for you. Enable auth if you want and SSL to.
