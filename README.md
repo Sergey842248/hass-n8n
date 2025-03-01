@@ -1,5 +1,5 @@
 # Just a fork of the Original
-# All Credits belong to "[https://github.com/Rbillon59/hass-n8n](url)"
+# All Credits go to "[https://github.com/Rbillon59/hass-n8n](url)"
 
 
 # Home Assistant Add-on: Hass-n8n
