@@ -106,4 +106,4 @@ This addon is published under the apache 2 license. Original author of the addon
 
 ## Credits
 
-Credits: [Rbilion59(https://github.com/Sergey842248/hass-n8n/issues)]
+Credits: <https://github.com/Rbillon59/hass-n8n>
