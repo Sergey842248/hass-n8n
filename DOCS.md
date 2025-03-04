@@ -1,6 +1,3 @@
-# Just a fork of the Original
-# All Credits go to "[https://github.com/Rbillon59/hass-n8n](url)"
-
 # Configuration
 
 In the configuration section, set the port if the default one is not good for you. Enable auth if you want and SSL to.
@@ -98,10 +95,15 @@ Just start the addon and head to the webui at http(s)://host:port (here 5678 by 
 
 Got questions?
 
-You can open an issue on Github and i'll try to answer it
+You can open an issue on Github and I'll try to answer it
 
-repository: <https://github.com/Rbillon59/hass-n8n>
+repository: <https://github.com/Sergey842248/hass-n8n>
+issue: <https://github.com/Sergey842248/hass-n8n/issues>
 
 ## License
 
 This addon is published under the apache 2 license. Original author of the addon's bundled software is n8n
+
+## Credits
+
+Credits: [Rbilion59(https://github.com/Sergey842248/hass-n8n/issues)]
