@@ -19,24 +19,6 @@ env_vars_list: []
 cmd_line_args: ""
 ```
 
-### Option: `env_vars_list` (required)
-
-List of the N8N environment variables. You can add as many environment variables as you want to the list through the UI. The format is the following :
-
-`WEBHOOK_URL: https://mywebhookurl.com` (the regular expression is `^[A-Z_0-9]+: .*$` )
-
-All the available environment variables are available here : <https://docs.n8n.io/hosting/environment-variables/environment-variables/>
-
-#### Installing external packages
-
-In n8n you can add external node modules by setting the `NODE_FUNCTION_ALLOW_EXTERNAL` environment variable with the list of npm packages you need.
-
-For example, to install the `lodash` and the `moment` packages, in the UI, set the `env_vars_list` variable to:
-
-```txt
-NODE_FUNCTION_ALLOW_EXTERNAL: lodash,moment
-```
-
 ### Option: `auth` (required)
 
 Enable of disable the basic authentication in the web interface.
@@ -62,11 +44,49 @@ If https, fill SSL cert variable accordingly
 
 ### Option: `certfile` (required)
 
-The cert of the SSL certificate if the https protocol is provided
+The cert of the SSL certificate if the https protocol is provided (use the certfile for the external URL of yout Home Assistant !Home Assistant and n8n can't be open at the same time")
 
 ### Option: `keyfile` (required)
 
-The private key of the SSL certificate if https enabled
+The private key of the SSL certificate if https enabled (use the keyfile for the external URL of yout Home Assistant !Home Assistant and n8n can't be open at the same time")
+
+### Option: `env_vars_list` (required)
+
+List of the N8N environment variables. 
+
+Format: `^[A-Z_0-9]+: .*$`
+
+All the available environment variables are available here : <https://docs.n8n.io/hosting/environment-variables/environment-variables/>
+
+#### Must know environment variables:
+
+
+1. Only allowing `lodash` and the `moment` Community package:
+
+```txt
+NODE_FUNCTION_ALLOW_EXTERNAL: lodash,moment
+```
+
+2. Allow all Community packages:
+
+```txt
+N8N_COMMUNITY_PACKAGES_ALLOW_TOOL_USAGE: true
+```
+
+3. Webhook-URL:
+
+```txt
+WEBHOOK_URL: [YOUR URL]:[YOUR PORT]
+```
+Replace "[YOUR URL]" with your external n8n URL, mostly the external URL from Home Assistant
+Replace "[YOUR PORT]" with the port diplayed/set up in the Configuration of the Add-On in the "Network" Section
+
+4. 
+```txt
+N8N_SECURE_COOKIE: false
+```
+
+Set this if you encounter problems with warnings about untrusted Systems
 
 ### Option: `cmd_line_args` (optional)
 
