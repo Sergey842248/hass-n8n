@@ -1,3 +1,5 @@
+Credits: <https://github.com/Rbillon59/hass-n8n>
+
 # Configuration
 
 In the configuration section, set the port if the default one is not good for you. Enable auth if you want and SSL to.
@@ -123,7 +125,3 @@ issue: <https://github.com/Sergey842248/hass-n8n/issues>
 ## License
 
 This addon is published under the apache 2 license. Original author of the addon's bundled software is n8n
-
-## Credits
-
-Credits: <https://github.com/Rbillon59/hass-n8n>
