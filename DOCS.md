@@ -63,19 +63,16 @@ All the available environment variables are available here : <https://docs.n8n.i
 #### Must know environment variables:
 
 
-1. Only allowing `lodash` and the `moment` Community package:
-
+#### 1. Secure Cookies
 ```txt
-NODE_FUNCTION_ALLOW_EXTERNAL: lodash,moment
+N8N_SECURE_COOKIE: false
 ```
 
-2. Allow all Community packages:
+Set this if you encounter problems with warnings about untrusted Systems
 
-```txt
-N8N_COMMUNITY_PACKAGES_ALLOW_TOOL_USAGE: true
-```
 
-3. Webhook-URL:
+
+#### 2. Webhook-URL:
 
 ```txt
 WEBHOOK_URL: [YOUR URL]:[YOUR PORT]
@@ -84,12 +81,23 @@ Replace "[YOUR URL]" with your external n8n URL, mostly the external URL from Ho
 
 Replace "[YOUR PORT]" with the port diplayed/set up in the Configuration of the Add-On in the "Network" Section
 
-4. 
-```txt
-N8N_SECURE_COOKIE: false
-```
 
-Set this if you encounter problems with warnings about untrusted Systems
+
+#### 3.  Allow all Community packages:
+
+```txt
+N8N_COMMUNITY_PACKAGES_ALLOW_TOOL_USAGE: true
+```
+Community packages: <https://www.npmjs.com/search?q=keywords%3An8n-community-node-package>
+
+
+
+#### 4. Only allowing `lodash` and the `moment` Community package:
+
+```txt
+NODE_FUNCTION_ALLOW_EXTERNAL: lodash,moment
+```
+Community packages: <https://www.npmjs.com/search?q=keywords%3An8n-community-node-package>
 
 ### Option: `cmd_line_args` (optional)
 
@@ -102,17 +110,16 @@ Just start the addon and head to the webui at http(s)://host:port (here 5678 by 
 ## Useful ressources
 
 ### Documentation
-
-<https://docs.n8n.io>
 <https://docs.n8n.io/getting-started/tutorials.html>
 
 ### Community public workflows
-
 <https://n8n.io/workflows>
 
 ### Available integrations
-
 <https://n8n.io/integrations>
+
+### Community packages
+<https://www.npmjs.com/search?q=keywords%3An8n-community-node-package>
 
 ## Support
 
