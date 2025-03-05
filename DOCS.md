@@ -81,6 +81,7 @@ N8N_COMMUNITY_PACKAGES_ALLOW_TOOL_USAGE: true
 WEBHOOK_URL: [YOUR URL]:[YOUR PORT]
 ```
 Replace "[YOUR URL]" with your external n8n URL, mostly the external URL from Home Assistant
+
 Replace "[YOUR PORT]" with the port diplayed/set up in the Configuration of the Add-On in the "Network" Section
 
 4. 
