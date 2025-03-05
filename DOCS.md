@@ -120,8 +120,9 @@ Got questions?
 
 You can open an issue on Github and I'll try to answer it
 
-repository: <https://github.com/Sergey842248/hass-n8n>
-issue: <https://github.com/Sergey842248/hass-n8n/issues>
+Repository: <https://github.com/Sergey842248/hass-n8n>
+
+Issues: <https://github.com/Sergey842248/hass-n8n/issues>
 
 ## License
 
