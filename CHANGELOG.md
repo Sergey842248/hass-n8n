@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## [ 2.0.19 ] - 2025-03-05
+
+ Bump n8n to 1.82.1
+
 ## [ 2.0.18 ] - 2025-03-05
 
  Bump n8n to 1.81.4
