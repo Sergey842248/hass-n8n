@@ -1,6 +1,8 @@
 # Changelog
 
-All notable changes to this project will be documented in this file.
+## [ 2.1.3 ] - 2025-04-01
+
+ Bump n8n to 1.85.4
 
 ## [ 2.1.2 ] - 2025-03-27
 
