@@ -1,7 +1,4 @@
 # Home Assistant Add-on: Hass-n8n
-Actively developed:✅
-
-Credits: <https://github.com/Rbillon59/hass-n8n>
 
 ## What is n8n?
 
@@ -19,4 +16,9 @@ Follow these steps to get the add-on installed on your system:
 4. Find/Search the **"Hass-n8n"** add-on and click it.
 5. Click on the **"INSTALL"** button.
 
+## What's the difference to the Original?
 
+Disabled Ingress support for easier setup of callback URIs.
+
+### Credits
+Original Project: <https://github.com/Rbillon59/hass-n8n>
