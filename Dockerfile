@@ -1,4 +1,4 @@
-FROM n8nio/n8n:1.108.2
+FROM n8nio/n8n:1.113.3
 USER root
 RUN apk add --no-cache --update jq bash npm
 WORKDIR /data
