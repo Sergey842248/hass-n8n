@@ -1,0 +1,14 @@
+pull_request_rules:
+  - name: Label PRs from renovate to automerge
+    conditions:
+      - author=renovate[bot]
+    actions:
+      label:
+        add:
+          - automerge
+  - name: Automatic merge
+    description: Merge when PR passes all branch protection and has label automerge
+    conditions:
+      - label = automerge
+    actions:
+      merge:
